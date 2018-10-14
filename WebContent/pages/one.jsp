@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/bootstrap-theme.min.css" />
 <title>首页</title>
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/bootstrap-theme.min.css" />
 </head>
 <body >
 	<div class="container">
@@ -14,16 +15,16 @@
 		<div class="col-md-12 column">
 			<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
 				<div class="navbar-header">
-					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">科技世界</a>
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">科技世界</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">科技世界</a>
 				</div>
 				
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li class="active">
-							 <a href="one.html">首页</a>
+							 <a href="one.jsp">首页</a>
 						</li>
 						<li>
-							 <a href="one.html">快讯</a>
+							 <a href="one.jsp">快讯</a>
 						</li>
 						<li class="dropdown">
 							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">更多分类<strong class="caret"></strong></a>
@@ -55,10 +56,10 @@
 					</form>
 					<ul class="nav navbar-nav navbar-right" style="margin-right: 10px;">
 						<li>
-							 <a href=" login.html">登录</a>
+							 <a href=" login.jsp">登录</a>
 						</li>
 						<li>
-							 <a href="signin.html ">注册</a>
+							 <a href="signin.jsp">注册</a>
 						</li>
 						
 					</ul>
@@ -78,19 +79,19 @@
 	<div class="carousel-inner" >
 		<div class="item active "  >
 			<a href=" xiangqin.html">
-			<img src="/img/面部识别1.png" alt=" slide"  width="auto" height="300px" />
+			<img src="../img/fical.png" alt=" slide"  width="auto" height="300px" />
 			</a>
 			<div class="carousel-caption" style="font-size:large;font-stretch: initial;" ><span><strong>马斯克用 1.9 秒重新定义了「超跑」</strong></span></div>
 		</div>
 		<div class="item"  >
 			<a href="#">
-			<img src="/img/芯片1.png" alt="Second slide"   width="auto" height="360px" />
+			<img src="../img/chip.png" alt="Second slide"   width="auto" height="360px" />
 			</a>
 			<div class="carousel-caption" style="font-size:large;font-stretch: initial;" ><span><strong>越南黑客用面具破解了苹果人脸识别技术，美国黑客却失败了</strong></span></div>
 		</div>
 		<div class="item" >
 			<a href="#">
-			<img src="/img/电击1.png" alt="Third slide"  width="auto" height="360px"/>
+			<img src="../img/elec.png" alt="Third slide"  width="auto" height="360px"/>
 			</a>
 			<div class="carousel-caption" style="font-size:large;font-stretch: initial;" ><span><strong>电击治网瘾是假的，但有可能提高你的记忆力</strong></span></div>
 		</div>
@@ -128,7 +129,7 @@
 				
 				<div class="col-md-4">
 					<div class="thumbnail" style="height: 500px;">
-						<img alt="300x200" src="/img/基因修改.png" />
+						<img alt="300x200" src="../img/clone.png" />
 						<div class="caption">
 							<h3>
 								首例！美科学家在人体内进行了基因编辑实验
@@ -144,7 +145,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="thumbnail" style="height: 500px;">
-						<img alt="300x200" src="img/面具1.jpg" />
+						<img alt="300x200" src="../img/marsk.jpg" />
 						<div class="caption">
 							<h3>
 								越南黑客用面具破解了苹果人脸识别技术，美国黑客却失败了
@@ -160,7 +161,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="thumbnail"style="height: 500px;">
-						<img alt="300x200" src="img/黑客.jpg" />
+						<img alt="300x200" src="../img/hack.jpg" />
 						<div class="caption">
 							<h3>
 								暂时忘掉斯诺登，人工智能到底能在情报工作中帮上哪些忙？
@@ -183,7 +184,7 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="thumbnail" style="height: 500px;">
-						<img alt="300x200" src="img/机械狗.jpg" />
+						<img alt="300x200" src="../img/dog.jpg" />
 						<div class="caption">
 							<h3>
 								能耍功夫会跑酷，这些「成精」的机器人原来出自一家公司
@@ -199,7 +200,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="thumbnail" style="height: 500px;">
-						<img alt="300x200" src="img/AI.jpg" />
+						<img alt="300x200" src="../img/AI.jpg" />
 						<div class="caption">
 							<h3>
 								硅谷明星工程师成立拜 AI 教，当神学家们在讨论人工智能时他们在讨论什么？
@@ -215,7 +216,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="thumbnail" style="height: 500px;">
-						<img alt="300x200" src="img/会议.jpg" />
+						<img alt="300x200" src="../img/meeting.jpg" />
 						<div class="caption" >
 							<h3>
 								暂时忘掉斯诺登人工智能到底能在情报工作中帮上哪些忙？
@@ -241,7 +242,7 @@
 <div class="container" style="margin-top: 20px;">
 	<div class="row clearfix">
 		<div class="col-md-3 column">
-			<img alt="140x140" src="img/微软surface.jpg" / width="281px" height="211px">
+			<img alt="140x140" src="../img/surface.jpg" / width="281px" height="211px">
 		</div>
 		<div class="col-md-9 column" style="margin-left:0px;margin-top: 50px;">
 			<h3 class="text-left">
@@ -258,7 +259,7 @@
 <div class="container" style="margin-top: 20px;">
 	<div class="row clearfix">
 		<div class="col-md-3 column">
-			<img alt="140x140" src="img/手机摄像头.jpg" / width="281px" height="211px">
+			<img alt="140x140" src="../img/phone.jpg" / width="281px" height="211px">
 		</div>
 		<div class="col-md-9 column" style="margin-left:0px;margin-top: 50px;">
 			<h3 class="text-left">
@@ -275,7 +276,7 @@
 <div class="container" style="margin-top: 20px;">
 	<div class="row clearfix">
 		<div class="col-md-3 column">
-			<img alt="140x140" src="img/华为mate10.jpg" / width="281px" height="211px">
+			<img alt="140x140" src="../img/mate10.jpg" / width="281px" height="211px">
 		</div>
 		<div class="col-md-9 column" style="margin-left:0px;margin-top: 50px;">
 			<h3 class="text-left">
@@ -292,7 +293,7 @@
 <div class="container" style="margin-top: 20px;">
 	<div class="row clearfix">
 		<div class="col-md-3 column">
-			<img alt="140x140" src="img/鼠标.jpg" / width="281px" height="211px">
+			<img alt="140x140" src="../img/mouse.jpg" / width="281px" height="211px">
 		</div>
 		<div class="col-md-9 column" style="margin-left:0px;margin-top: 50px;">
 			<h3 class="text-left">
@@ -315,7 +316,7 @@
 <div class="container" style="margin-top: 20px;">
 	<div class="row clearfix">
 		<div class="col-md-3 column">
-			<img alt="140x140" src="img/东芝.jpg" / width="281px" height="211px">
+			<img alt="140x140" src="../img/dongz.jpg" / width="281px" height="211px">
 		</div>
 		<div class="col-md-9 column" style="margin-left:0px;margin-top: 50px;">
 			<h3 class="text-left">
@@ -332,7 +333,7 @@
 <div class="container" style="margin-top: 20px;">
 	<div class="row clearfix">
 		<div class="col-md-3 column">
-			<img alt="140x140" src="img/打车.jpg" / width="281px" height="211px">
+			<img alt="140x140" src="../img/car.jpg" / width="281px" height="211px">
 		</div>
 		<div class="col-md-9 column" style="margin-left:0px;margin-top: 50px;">
 			<h3 class="text-left">
@@ -349,7 +350,7 @@
 <div class="container" style="margin-top: 20px;">
 	<div class="row clearfix">
 		<div class="col-md-3 column">
-			<img alt="140x140" src="img/汽车之家.jpg" / width="281px" height="211px">
+			<img alt="140x140" src="../img/carhome.jpg" / width="281px" height="211px">
 		</div>
 		<div class="col-md-9 column" style="margin-left:0px;margin-top: 50px;">
 			<h3 class="text-left">
@@ -366,7 +367,7 @@
 <div class="container" style="margin-top: 20px;">
 	<div class="row clearfix">
 		<div class="col-md-3 column">
-			<img alt="140x140" src="img/VR.jpg" / width="281px" height="211px">
+			<img alt="140x140" src="../img/VR.jpg" / width="281px" height="211px">
 		</div>
 		<div class="col-md-9 column" style="margin-left:0px;margin-top: 50px;">
 			<h3 class="text-left">
@@ -391,7 +392,7 @@
 <div class="container" style="margin-top: 20px;">
 	<div class="row clearfix">
 		<div class="col-md-3 column">
-			<img alt="140x140" src="img/电池.jpg" / width="281px" height="211px">
+			<img alt="140x140" src="../img/baterry.jpg" / width="281px" height="211px">
 		</div>
 		<div class="col-md-9 column" style="margin-left:0px;margin-top: 50px;">
 			<h3 class="text-left">
@@ -408,7 +409,7 @@
 <div class="container" style="margin-top: 20px;">
 	<div class="row clearfix">
 		<div class="col-md-3 column">
-			<img alt="140x140" src="img/基因编辑.jpg" / width="281px" height="211px">
+			<img alt="140x140" src="../img/jiyin.jpg" / width="281px" height="211px">
 		</div>
 		<div class="col-md-9 column" style="margin-left:0px;margin-top: 50px;">
 			<h3 class="text-left">
@@ -425,7 +426,7 @@
 <div class="container" style="margin-top: 20px;">
 	<div class="row clearfix">
 		<div class="col-md-3 column">
-			<img alt="140x140" src="img/自动驾驶.jpg" / width="281px" height="211px">
+			<img alt="140x140" src="../img/pilot.jpg" / width="281px" height="211px">
 		</div>
 		<div class="col-md-9 column" style="margin-left:0px;margin-top: 50px;">
 			<h3 class="text-left">
@@ -442,7 +443,7 @@
 <div class="container" style="margin-top: 20px;">
 	<div class="row clearfix">
 		<div class="col-md-3 column">
-			<img alt="140x140" src="img/无线充电.png" / width="281px" height="211px">
+			<img alt="140x140" src="../img/wireless.png" / width="281px" height="211px">
 		</div>
 		<div class="col-md-9 column" style="margin-left:0px;margin-top: 50px;">
 			<h3 class="text-left">

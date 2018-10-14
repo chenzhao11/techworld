@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link  rel="stylesheet" href="css/app.css" >
 </head>
-<body style="background-image:url(./主页.jpeg);margin:0; height:560px;width:auto; background-size: cover; background-repeat: repeat-y;">
+<body style="background-image:url(img/zhuye.jpeg);margin:0; height:560px;width:auto; background-size: cover; background-repeat: repeat-y;">
 		<div >
 	  		<div calss="onepage-bg" id="onepagebg"></div>
 				<div class="container">
